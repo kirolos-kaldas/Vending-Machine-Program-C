@@ -1,0 +1,47 @@
+/***********************************************************************
+* COSC1076 - Advanced Programming Techniques
+
+* Semester 2 2015 Assignment #2
+
+* Full Name        : KIROLOS KALDAS
+
+* Student Number   : s3545643
+
+* Course Code      : COSC1076
+
+* Program Code     : BP096
+
+* Start up code provided by Paul Miller
+* Some codes are adopted here with permission by an anonymous author
+***********************************************************************/
+
+In ppd_coin.c:
+There was some struggle with this file because it was hard to validate every
+token of data that was taken from the coins file and checking the format which was also 
+hard and time consuming.
+
+In ppd_stock.c:
+In this file, there was a lot of struggle with the check the validation of each token like the id, on_hand
+and also the price which was the hardest one because of the many algorithm of checking the
+price. Adding the information to the linkedlist in order of the names was also hard at first but after i 
+got the hang of it, it was a lot easier.
+
+In ppd_main.c:
+Validating the users input for the options was a bit hard in this file. Also using function pointers
+was tricky at times. And checking the arguments passed in the command line was a bit hard because
+I wasn't familiar with it at first.
+
+In ppd_menu.c:
+The hardest bit in this file was initializing the menu names and function pointers.
+
+In ppd_utility.c:
+This file was easy to implement but the hardest bit was initializing the system and using malloc.
+
+In ppd_options.c:
+This file was the hardest out of the whole assignment files because of the many implementations in it.
+the hardest functions to implement were the add item and purchase item. In add item, it was checking the
+price inputed because of checking the many possibilities inputed. And in the purchase item, it was giving
+the change to the customer.
+
+In the header files:
+I didn't change anything in them but I added some of my own define types.
